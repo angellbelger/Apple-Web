@@ -1,2 +1,28 @@
 @charset "UTF-8";
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --colour01: #4b194a;
+    --colour02: gray;
+    --colour03: #165f5c;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--colour01), var(--colour03));
+    color: #ffffff;
+    text-align: center;
+}
+
+h1#main {
+    text-shadow: #000000 2px 0px 4px, #000000 -2px 0px 4px, #000000 0px 2px 4px, #000000 0px -2px 4px;
+}
+
+img#logo {
+    width: 100px;
+    height: 100px;
+}
