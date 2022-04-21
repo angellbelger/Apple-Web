@@ -8,21 +8,52 @@
 
 :root {
     --colour01: #4b194a;
-    --colour02: gray;
+    --colour02: #808080;
     --colour03: #165f5c;
+    --colour04: #ffffff;
+}
+
+body {
+    background-color: var(--colour02);
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--colour01), var(--colour03));
-    color: #ffffff;
+    background-image: radial-gradient(var(--colour03), var(--colour01));
+    color: var(--colour04);
     text-align: center;
 }
 
-h1#main {
-    text-shadow: #000000 2px 0px 4px, #000000 -2px 0px 4px, #000000 0px 2px 4px, #000000 0px -2px 4px;
+nav {
+    padding: 5px;
+    background-color: var(--colour03);
+}
+
+nav > a {
+    color: var(--colour04);
+    text-decoration: none;
+    padding:10px;
+}
+
+main {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 800px;
 }
 
 img#logo {
+    padding-top: 10px;
     width: 100px;
     height: 100px;
+}
+
+h1#main {
+    padding-bottom: 10px;
+    text-shadow: #000000 2px 0px 4px, #000000 -2px 0px 4px, #000000 0px 2px 4px, #000000 0px -2px 4px;
+}
+
+p {
+    text-indent: 40px;
+    line-height: 40px;
 }
