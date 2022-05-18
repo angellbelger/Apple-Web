@@ -59,7 +59,22 @@ h1#main {
     text-shadow: #000000 2px 0px 4px, #000000 -2px 0px 4px, #000000 0px 2px 4px, #000000 0px -2px 4px;
 }
 
+h1 {
+    font-family: "tesla", Arial, Helvetica, sans-serif;
+}
+
+section.image {
+    text-align: center;
+}
+
 p {
     text-indent: 40px;
     line-height: 40px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
 }
