@@ -6,8 +6,13 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: "tesla";
+    src: url(font/TESLA.ttf);
+}
+
 :root {
-    --colour01: #4b194a;
+    --colour01: #290428;
     --colour02: #808080;
     --colour03: #165f5c;
     --colour04: #ffffff;
@@ -24,8 +29,8 @@ header {
 }
 
 nav {
-    padding: 5px;
-    background-color: var(--colour03);
+    padding: 10px;
+    background-color: var(--colour01);
 }
 
 nav > a {
@@ -43,13 +48,14 @@ main {
 }
 
 img#logo {
-    padding-top: 10px;
+    padding-top: 40px;
     width: 100px;
     height: 100px;
 }
 
 h1#main {
-    padding-bottom: 10px;
+    font-family: "tesla", Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
     text-shadow: #000000 2px 0px 4px, #000000 -2px 0px 4px, #000000 0px 2px 4px, #000000 0px -2px 4px;
 }
 
