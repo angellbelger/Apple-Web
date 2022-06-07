@@ -12,6 +12,7 @@
 }
 
 :root {
+    --colour00: #000000;
     --colour01: #290428;
     --colour02: #3f4749;
     --colour03: #165f5c;
@@ -23,14 +24,14 @@ body {
 }
 
 header {
-    background-image: radial-gradient(var(--colour03), var(--colour01));
+    background-image: radial-gradient(var(--colour02), var(--colour00));
     color: var(--colour04);
     text-align: center;
 }
 
 nav {
     padding: 10px;
-    background-color: var(--colour01);
+    background-color: var(--colour00);
 }
 
 nav > a {
@@ -45,6 +46,7 @@ main {
     padding: 20px;
     min-width: 300px;
     max-width: 800px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.349);
 }
 
 img#logo {
