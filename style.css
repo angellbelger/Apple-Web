@@ -45,7 +45,6 @@ main {
     margin: auto;
     padding: 20px;
     min-width: 300px;
-    max-width: 800px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.349);
 }
 
@@ -79,4 +78,21 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 10px;
+}
+
+div#steve {
+    background-image: url(image/i490761.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+div.txt {
+    color: var(--colour04);
+    font-size: 40px;
+    padding: 20px;
+    background-color: var(--colour02);
+    width: 400px;
+    height: 200px;
 }
