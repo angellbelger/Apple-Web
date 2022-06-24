@@ -108,7 +108,7 @@ div.txt > p {
 }
 
 div.box {
-    background-color: #00000063;
+    background-color: #ffffff;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -133,10 +133,48 @@ div.scroll {
     margin: 10px -20px 10px -20px;
 }
 
-div#iphone1 {
+div#i1 {
     background-image: url(image/products/01.png);
+    background-size: contain;
 }
 
-div#iphone2 {
-    
+div#i2 {
+    background-image: url(image/products/04.png);
+}
+
+div#i3 {
+    background-image: url(image/products/06.png);
+}
+
+div#i4 {
+    background-image: url(image/products/07.jpg);
+}
+
+div#i5 {
+    background-image: url(image/products/10.jpg);
+}
+
+div#m1 {
+    background-image: url(image/products/mac01.jpg);
+}
+
+div#m2 {
+    background-image: url(image/products/mac02.jpg);
+}
+
+div#m3 {
+    background-image: url(image/products/mac03.jpg);
+    background-size: cover;
+}
+
+div#m4 {
+    background-image: url(image/products/mac04.jpg);
+}
+
+div#m5 {
+    background-image: url(image/products/mac06.jpg);
+}
+
+div#m6 {
+    background-image: url(image/products/mac07.jpg);
 }
