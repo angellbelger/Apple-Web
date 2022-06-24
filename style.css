@@ -89,10 +89,20 @@ div#steve {
 }
 
 div.txt {
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    width: 50vw;
+}
+
+div.txt > p {
     color: var(--colour04);
-    font-size: 40px;
+    display: inline-block;
+    background-color: #0000007a;
+    text-shadow: 3px 3px 5px #000000;
     padding: 20px;
-    background-color: var(--colour02);
-    width: 400px;
-    height: 200px;
+    line-height: 5vw;
+    text-align: left;
 }
