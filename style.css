@@ -73,6 +73,13 @@ p {
     line-height: 40px;
 }
 
+p.descri {
+    font-weight: bolder;
+    color: var(--colour03);
+    text-indent: 0px;
+    padding: 10px;
+}
+
 footer {
     background-color: #000000;
     color: #ffffff;
@@ -108,12 +115,13 @@ div.txt > p {
 }
 
 div.box {
+    position: relative;
     background-color: #ffffff;
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: contain;
     min-width: 320px;
-    height: 200px;
+    height: 270px;
     line-height: 150px;
     border: solid 2px black;
     margin: 0px 10px 0px 10px;
@@ -121,12 +129,34 @@ div.box {
     box-shadow: 5px 5px 7px #0000005b;
 }
 
+div.product {
+    position: absolute;
+    height: 200px;
+    min-width: 320px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: solid 2px black;
+    margin: 0px 0px 0px 0px;
+    border-radius: 5px;
+}
+
+div.preco {
+    position: absolute;
+    height: 50px;
+    min-width: 320px;
+    border: solid 1px black;
+    top: 77%;
+    transform: translate(0%, 0%);
+
+}
+
 div.scroll {
     display: flex;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-color: var(--colour02);
-    max-height: 220px;
+    max-height: 320px;
     padding: 10px;
     box-shadow: inset 1px 1px 7px #00000059;
     overflow-x: auto;
@@ -135,7 +165,6 @@ div.scroll {
 
 div#i1 {
     background-image: url(image/products/01.png);
-    background-size: contain;
 }
 
 div#i2 {
@@ -155,7 +184,7 @@ div#i5 {
 }
 
 div#i6 {
-    background-image: url(image/products/12.jpg);
+    background-image: url(image/products/06.png);
 }
 
 div#m1 {
