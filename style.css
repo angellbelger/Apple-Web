@@ -81,23 +81,14 @@ footer {
 }
 
 div#steve {
+    height: 600px;
     background-image: url(image/i490761.jpeg);
-    min-height: 545px;
+    min-height: 400px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right center;
 }
 
-div.txt > p {
-    color: var(--colour04);
-    display: inline-block;
-    background-color: #0000007a;
-    text-shadow: 3px 3px 5px #000000;
-    padding: 20px;
-    line-height: 60px;
-    text-align: left;
-    max-width: 600px;
-}
 
 div.box {
     background-color: #ffffff;
@@ -175,6 +166,19 @@ div#m6 {
     background-image: url(image/products/mac07.jpg);
 }
 
-iframe#apple {
-    max
+div.video {
+    display: block;
+    background-color: transparent;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%
 }
