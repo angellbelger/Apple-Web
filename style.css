@@ -13,7 +13,7 @@
 
 :root {
     --colour00: #000000;
-    --colour01: #290428;
+    --colour01: #9229C3;
     --colour02: #3f4749;
     --colour03: #165f5c;
     --colour04: #ffffff;
@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    background-image: radial-gradient(var(--colour02), var(--colour00));
+    background-image: radial-gradient(var(--colour01), var(--colour00));
     color: var(--colour04);
     text-align: center;
 }
