@@ -167,9 +167,8 @@ div#m6 {
 }
 
 div.video {
-    display: block;
-    background-color: transparent;
-    margin: auto;
+    background-color: var(--colour05);
+    margin: 30px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 50%;
     position: relative;
@@ -177,8 +176,8 @@ div.video {
 
 div.video > iframe {
     position: absolute;
-    top: 25%;
-    left: 25%;
-    width: 50%;
-    height: 50%
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%
 }
