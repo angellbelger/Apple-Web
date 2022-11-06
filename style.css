@@ -82,19 +82,10 @@ footer {
 
 div#steve {
     background-image: url(image/i490761.jpeg);
-    height: 450px;
+    min-height: 545px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right center;
-}
-
-div.txt {
-    font-size: 20pxvw;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 30px;
-    line-height: 2em;
-    width: 50vw;
 }
 
 div.txt > p {
@@ -103,8 +94,9 @@ div.txt > p {
     background-color: #0000007a;
     text-shadow: 3px 3px 5px #000000;
     padding: 20px;
-    line-height: 5vw;
+    line-height: 60px;
     text-align: left;
+    max-width: 600px;
 }
 
 div.box {
@@ -181,4 +173,8 @@ div#m5 {
 
 div#m6 {
     background-image: url(image/products/mac07.jpg);
+}
+
+iframe#apple {
+    max
 }
